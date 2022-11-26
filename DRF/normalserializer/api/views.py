@@ -6,18 +6,18 @@ from rest_framework.renderers import JSONRenderer
 # Create your views here.
 import json
 # Model Object  - Single Data
-def student_details(req,pk):
-    msg = {"msg": "User Not Found"}
-    try:
-        stud = Student.objects.get(id=pk)
-    except Exception:
-        msg = {"msg": "User Not Found"}
-    else:
-        print(stud.__dict__)
-        serializer = StudentSeralizer(stud)
-        json_data = JSONRenderer().render(serializer.data)
-        return HttpResponse(json_data,content_type='application/json')
-    return HttpResponse(json.dumps(msg),content_type='application/json')
+# def student_details(req,pk):
+#     msg = {"msg": "User Not Found"}
+#     try:
+#         stud = Student.objects.get(id=pk)
+#     except
+#         msg = {"msg": "User Not Found"}
+#     else:
+#         print(stud.__dict__)
+#         serializer = StudentSeralizer(stud)
+#         json_data = JSONRenderer().render(serializer.data)
+#         return HttpResponse(json_data,content_type='application/json')
+#     return HttpResponse(json.dumps(msg),content_type='application/json')
 
 # get all student
 def student_list(req):
@@ -34,4 +34,16 @@ def student_list(req):
         # if you want to use JsonResponse then
         # safe = False
         return JsonResponse(serializer.data,safe=False)
+    return HttpResponse(json.dumps(msg),content_type='application/json')
+
+def student_details(req,pk):
+    msg = {}
+    try:
+        stud = Student.objects.get(id=pk)
+    except Student.DoesNotExist:
+        msg = {"msg": "User Not Found"}
+    else:
+        serializer = StudentSeralizer(stud)
+        json_data = JSONRenderer().render(serializer.data)
+        return HttpResponse(json_data,content_type='application/json')
     return HttpResponse(json.dumps(msg),content_type='application/json')
