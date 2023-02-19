@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Information</title>
+</head>
+<body>
+<center><h1>Employee Information</h1></center>
+<hr>
+{{resp}}
+<br><br>
+<form action="http://localhost:8000/emp/" method="post">
+    Emp Id : <input type="text" name="eid" value="{{emp.id}}"><br><br>
+    Emp Name: <input type="text" name="ename"value="{{emp.name}}"><br><br>
+    Emp Age: = <input type="text" name="eage" value="{{emp.age}}"><br><br>
+    Emp Salary = <input type="text" name="esal" value="{{emp.salary}}"><br><br>
+    Emp Email: <input type="text" name="eemail" value="{{emp.email}}"><br><br>
+
+    City: = <input type="text" name="city"value="{{emp.adrref.city}}"><br><br>
+    state: = <input type="text" name="state"value="{{emp.adrref.state}}"><br><br>
+    pincode = <input type="text" name="pin"value="{{emp.adrref.pin}}"><br><br>
+    <input type="submit"><br><br>
+
+    {%if elist%}
+
+        <table border="1">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Salary</th>
+                <th>Email</th>
+                <th>city </th>
+                <th>State</th>
+                <th>Pincode</th>
+                <th>Action</th>
+            </thead>
+            <tbody>
+            {%for emp in elist %}
+            <tr>
+                <td>{{emp.id}}</td>
+                <td>{{emp.name}}</td>
+                <td>{{emp.age}}</td>
+                <td>{{emp.salary}}</td>
+                <td>{{emp.email}}</td>
+                <td>{{emp.adrref.city}}</td>
+                <td>{{emp.adrref.state}}</td>
+                <td>{{emp.adrref.pin}}</td>
+                <td>
+                    <a href="/emp/edit/{{emp.id}}">Edit</a>|
+                    <a href="/emp/delete/{{emp.id}}">Delete</a>
+                </td>
+            </tr>
+            {%endfor%}
+            </tbody>
+        </table>
+    {%endif%}
+
+</form>
+</body>
+</html>
