@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c1a9189-eb6f-4548-b848-74d8ddfc9c34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DRF/CRUDCBV/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DRF/CRUDCBV/api/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DRF/CRUDCBV/api/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DRF/CRUDCBV/api/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DRF/CRUDCBV/api/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DRF/CRUDCBV/api/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DRF/CRUDCBV/api/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DRF/CRUDCBV/api/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DRF/CRUDCBV/api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/concepts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/concepts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRF/CRUDCBV/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DRF/CRUDCBV/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRF/CRUDCBV/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DRF/CRUDCBV/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRF/CRUDCBV/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/DRF/CRUDCBV/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRF/CRUDCBV/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DRF/CRUDCBV/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRF/CRUDFBVCBV/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/DRF/CRUDFBVCBV/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRF/CRUDFBVCBV/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DRF/CRUDFBVCBV/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DRF/CRUDFBVCBV/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DRF/CRUDFBVCBV/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DRF/CRUDCBV/api/admin.py">
+        <entry file="file://$PROJECT_DIR$/DRF/samplerouter/api/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="100">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -34,47 +32,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DRF/CRUDCBV/CRUDCBV/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DRF/CRUDCBV/client.py">
+        <entry file="file://$PROJECT_DIR$/DRF/samplerouter/api/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DRF/CRUDCBV/CRUDCBV/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#631#663#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DRF/CRUDCBV/api/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="296">
+              <caret line="74" column="36" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DRF/samplerouter/api/serializer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DRF/CRUDCBV/api/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -87,6 +70,12 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>log_action</find>
+      <find>save_</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,8 +97,6 @@
         <option value="$PROJECT_DIR$/DRF/deseralization/api/views.py" />
         <option value="$PROJECT_DIR$/DRF/normalserializer/api/views.py" />
         <option value="$PROJECT_DIR$/DRF/CRUDFBVCBV/CRUDFBVCBV/settings.py" />
-        <option value="$PROJECT_DIR$/DRF/CRUDFBVCBV/api/models.py" />
-        <option value="$PROJECT_DIR$/DRF/CRUDFBVCBV/api/admin.py" />
         <option value="$PROJECT_DIR$/DRF/CRUDFBVCBV/CRUDFBVCBV/urls.py" />
         <option value="$PROJECT_DIR$/DRF/CRUDFBVCBV/api/serializer.py" />
         <option value="$PROJECT_DIR$/DRF/CRUDFBVCBV/api/views.py" />
@@ -119,6 +106,12 @@
         <option value="$PROJECT_DIR$/DRF/CRUDCBV/CRUDCBV/urls.py" />
         <option value="$PROJECT_DIR$/DRF/CRUDCBV/api/views.py" />
         <option value="$PROJECT_DIR$/DRF/CRUDCBV/client.py" />
+        <option value="$PROJECT_DIR$/DRF/samplerouter/samplerouter/settings.py" />
+        <option value="$PROJECT_DIR$/DRF/samplerouter/samplerouter/urls.py" />
+        <option value="$PROJECT_DIR$/DRF/samplerouter/api/urls.py" />
+        <option value="$PROJECT_DIR$/DRF/CRUDFBVCBV/api/models.py" />
+        <option value="$PROJECT_DIR$/DRF/CRUDFBVCBV/api/admin.py" />
+        <option value="$PROJECT_DIR$/DRF/CRUDCBV/api/models.py" />
       </list>
     </option>
   </component>
@@ -133,45 +126,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="concepts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concepts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="concepts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concepts" type="462c0819:PsiDirectoryNode" />
-              <item name="DRF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="concepts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concepts" type="462c0819:PsiDirectoryNode" />
-              <item name="DRF" type="462c0819:PsiDirectoryNode" />
-              <item name="CRUDCBV" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="concepts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concepts" type="462c0819:PsiDirectoryNode" />
-              <item name="DRF" type="462c0819:PsiDirectoryNode" />
-              <item name="CRUDCBV" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/DRF/CRUDCBV" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DRF/samplerouter" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PycharmProjects\concepts\DRF\samplerouter" />
       <recent name="E:\PycharmProjects\concepts\DRF\CRUDCBV" />
     </key>
   </component>
@@ -274,20 +240,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17410715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5253683" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -319,13 +284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/pyworkspace/DjangoENV21/Lib/site-packages/django/contrib/admin/options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="545" column="23" selection-start-line="545" selection-start-column="23" selection-end-line="545" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -440,30 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DRF/CRUDFBVCBV/CRUDFBVCBV/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DRF/CRUDFBVCBV/api/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DRF/CRUDFBVCBV/api/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/pyworkspace/DjangoENV21/Lib/site-packages/rest_framework/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-448">
@@ -514,16 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DRF/CRUDCBV/api/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DRF/CRUDFBVCBV/CRUDFBVCBV/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -534,19 +458,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DRF/CRUDCBV/CRUDCBV/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DRF/CRUDCBV/api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="-966">
           <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -554,12 +468,141 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DRF/CRUDCBV/api/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DRF/CRUDCBV/CRUDCBV/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DRF/CRUDCBV/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        <state relative-caret-position="1150">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DRF/samplerouter/samplerouter/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="e#636#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DRF/samplerouter/samplerouter/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DRF/CRUDFBVCBV/CRUDFBVCBV/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pyworkspace/DjangoENV21/Lib/site-packages/django/contrib/admin/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1271">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DRF/samplerouter/api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pyworkspace/DjangoENV21/Lib/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="734" column="44" selection-start-line="734" selection-start-column="44" selection-end-line="734" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DRF/CRUDFBVCBV/api/migrations/0002_mylog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pyworkspace/DjangoENV21/Lib/site-packages/django/contrib/admin/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="804" column="8" selection-start-line="804" selection-start-column="8" selection-end-line="844" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DRF/CRUDFBVCBV/api/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DRF/CRUDFBVCBV/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DRF/CRUDCBV/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DRF/samplerouter/api/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DRF/samplerouter/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="74" column="36" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

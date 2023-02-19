@@ -1,7 +1,6 @@
 import requests
 import json
 BASE_URL = 'http://127.0.0.1:8000/stud/'
-BASE_URL = 'http://127.0.0.1:8000/api/hello-view/'
 
 def get_data(id = None):
     data = {}
@@ -11,7 +10,7 @@ def get_data(id = None):
     res = requests.get(url=BASE_URL,data=json_data)
     data = res.json()
     print(data)
-#get_data()
+# get_data()
 
 def post_data():
     data = {
@@ -19,14 +18,11 @@ def post_data():
         'roll':102,
         'city': 'Kholapur'
     }
-    data = {
-        "name":"admin"
-    }
     json_data = json.dumps(data)
     res = requests.post(url=BASE_URL,data=json_data)
     data = res.json()
     print(data)
-post_data()
+# post_data()
 
 def update_data():
     data = {
