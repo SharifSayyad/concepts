@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Count by using cookies</title>
+</head>
+<body>
+
+{% for key,value in request.session.items %}
+    {{key}} {{value}}
+
+{% endfor %}
+
+
+<form action="">
+    Enter Name:<input type="text" name="name">
+    <input type="submit"value="show session value">
+</form>
+</body>
+</html>

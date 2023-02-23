@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Information</title>
+</head>
+<body>
+<center><h1>Employee Inforamtoin</h1></center>
+{{resp}}
+<hr>
+<form action="http://localhost:8000/emp/save/" method="post">
+    {% csrf_token %}
+    Id : <input type="text" name="eid" value="{{emp.id}}"><br><br>
+    Name : <input type="text" name="ename" value="{{emp.name}}"><br><br>
+    Age : <input type="text" name="eage" value="{{emp.age}}"><br><br>
+    Salary : <input type="text" name="esalary" value="{{emp.salary}}"><br><br>
+    Role : <input type="text" name="erole" value="{{emp.role}}"><br><br>
+    <input type="submit"><br><br>
+</form>
+{% if elist %}
+    <table border="1">
+        <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>Role</th>
+            <th>Action</th>
+        </thead>
+        <tbody>
+        {% for emp in elist%}
+            <tr>
+                <td>{{emp.id}}</td>
+                <td>{{emp.name}}</td>
+                <td>{{emp.age}}</td>
+                <td>{{emp.salary}}</td>
+                <td>{{emp.role}}</td>
+                <td>
+                    <a href="/emp/eidt/{{emp.id}}">Edit</a>
+                    <a href="/emp/delete/{{emp.id}}">Delete</a>
+
+<!--                    <a href="/emp/edit/{{emp.id}}">Edit</a>|-->
+<!--                    <a href="/emp/delete/{{emp.id}}">Delete</a>-->
+                </td>
+            </tr>
+        {%endfor%}
+        </tbody>
+    </table>
+{%endif%}
+</body>
+</html>

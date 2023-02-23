@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee List</title>
+</head>
+<body>
+<h1>Employee List</h1>
+{{emplist}}
+{{resp}}
+{% if object_list %}
+    <table border="1">
+        <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Salary</th>
+            <th>Role</th>
+            <th>Action</th>
+        </thead>
+        <tbody>
+        {% for emp in object_list%}
+            <tr>
+                <td>{{emp.id}}</td>
+                <td>{{emp.name}}</td>
+                <td>{{emp.age}}</td>
+                <td>{{emp.salary}}</td>
+                <td>{{emp.role}}</td>
+                <td>
+                    <a href="/emp/{{emp.id}}/update">Edit</a>
+                    <a href="/emp/{{emp.id}}/delete">Delete</a>
+                </td>
+            </tr>
+        {%endfor%}
+        </tbody>
+    </table>
+{%endif%}
+</body>
+</html>
